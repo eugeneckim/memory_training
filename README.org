@@ -1,0 +1,56 @@
+* Overview
+** Purpose
+  - This page is supposed to cover a project which is to memorize the
+    Enchiridion by Epictetus.
+
+** Inspiration
+   - Similar to memorization of scripture or key works.  Most things
+     come back to Epictetus and his teachings.  Also, I have received
+     benefit from memorizing other key maxims and teachings.
+
+* Rough Plan
+  - Transcribe the entire Enchiridion.  For the following reasons:
+    - Easier for familiarization and review.
+    - Faster for me to type.
+    - Attempt to automate certain techniques like the "first letter
+      method." Which would at least help to compress + help recall.
+
+  - Chunk off the entire Enchiridion into digestable pieces. Build a
+    memory palace around the entire thing.  Optimize as we go by:
+
+    - Creating and adding to a databse of short/filler/repetitive
+      words.
+      - Creating also images for common phrases.
+    
+* Changelog
+** [2021-12-30 Thu]
+  - Just some initial project outline and layout stuffs.
+  - Started transcription.
+
+* Notes
+
+* Resources    
+** Enchiridion Memorization
+  - There have been some accounts that James Stockdale memorised, or
+    memorised big chunks of the Enchiridion.
+    - In a recent [[https://fs.blog/knowledge-podcast/nancy-sherman/][Interview]] she noted:
+
+      #+begin_quote
+      I interviewed Stockdale very late in his life, you know, and he
+      could kind of still memorize this little booklet by heart. It
+      was quite remarkable to me. He really had internalized it. All
+      this resonated with me and I had to think which stoic lessons
+      are really the ones I want to endorse or promote.
+      #+end_quote
+
+          - There are some other web accounts that Stockdale had memorised
+      this.
+
+** Analysis
+
+   - Some quick and dirty commands:
+     #+begin_src 
+     # cat | tr '[:space:]' '[\n*]' | grep -v "^\s*$" | sort | uniq -c | sort -bnr
+     #+end_src
+
+
